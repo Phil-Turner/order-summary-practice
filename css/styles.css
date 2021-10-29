@@ -1,0 +1,145 @@
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-color:#e0e8ff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Red-Hat-Display", sans-serif;
+  margin: 0;
+}
+
+.top-container {
+  padding-top: 80px;
+  margin: 100px auto;
+  width: 500px;
+  height: 144px;
+}
+
+img {
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+}
+
+.bottom-container {
+  background-color: hsl(225, 100%, 98%);
+  margin: 0 auto 100px;
+  position: relative;
+  border-radius: 0 0 25px 25px;
+  width: 500px;
+  height: 500px;
+}
+
+p {
+  text-align: center;
+  line-height: 1.5;
+}
+
+h1 {
+  padding-top: 20px;
+}
+
+.info {
+  width: 60%;
+  margin: auto;
+  color: grey;
+}
+
+.plan-details {
+  width: 350px;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  top: 47%;
+}
+
+.annual-plan {
+  font-weight: bold;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.change {
+  width: 150px;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+
+}
+
+.change-font {
+  color: blue;
+  font-weight: bold;
+}
+
+.plan {
+  padding-top: 30px;
+  text-align: left;
+  margin: auto;
+}
+
+.price {
+  text-align: left;
+  color: grey;
+}
+
+.music-icon {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 100px;
+
+}
+
+.button {
+  position: absolute;
+  bottom: 15%;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.BUTTON_VDC {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: "Red-Hat-Display", sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #3829E0;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 0 0 40px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_VDC:hover {
+   background: #1E62D0;
+   border: solid #337FED 1px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.canel-order{
+  position: absolute;
+  bottom: 5%;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cancel {
+  font-weight: bold;
+  color: grey;
+  text-decoration: none;
+}
